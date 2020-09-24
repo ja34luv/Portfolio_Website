@@ -89,9 +89,10 @@ img {
     // Header Content
     .header-content {
       text-align: center;
-      padding-top: 18%;
+      padding-top: 12%;
 
       h1 {
+        font-weight: 650;
         font-size: 4rem;
         line-height: 1.2;
       }
@@ -123,41 +124,14 @@ img {
     }
   }
 
-  // Home Section B
-  &-b {
-    .stats {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-
-      li {
-        line-height: 2;
-
-        &.stats-title {
-          font-size: 1.5rem;
-        }
-
-        &.stats-number {
-          font-size: 2rem;
-          font-weight: bold;
-        }
-      }
-
-      div {
-        padding: 3rem 0;
-
-        &:nth-child(odd) {
-          background: $light-color;
-        }
-
-        &:nth-child(even) {
-          background: $medium-color;
-        }
-      }
-    }
+  // Home Section A & B Line Breaek
+  &-hr {
+    margin: 20px 80px 15px;
+    border-top: dotted $dark-color 5px;
   }
 
-  // Home Section C
-  &-c {
+  // Home Section B
+  &-b {
     .process {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -251,6 +225,7 @@ img {
       margin: 1rem;
     }
   }
+
   // About B
   &-b {
     .progress {
@@ -268,8 +243,42 @@ img {
       }
     }
   }
+
   // About C
   &-c {
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+
+      li {
+        line-height: 2;
+
+        &.stats-title {
+          font-size: 1.5rem;
+        }
+
+        &.stats-number {
+          font-size: 2rem;
+          font-weight: bold;
+        }
+      }
+
+      div {
+        padding: 3rem 0;
+
+        &:nth-child(odd) {
+          background: $light-color;
+        }
+
+        &:nth-child(even) {
+          background: $medium-color;
+        }
+      }
+    }
+  }
+
+  // About D
+  &-d {
     .about-logos {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -280,8 +289,9 @@ img {
       }
     }
   }
-  // About D
-  &-d {
+
+  // About E
+  &-e {
     .testimonials {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -387,6 +397,7 @@ img {
       line-height: 20px;
       text-align: center;
       padding: 0.5rem;
+      color: #fff;
 
       &:hover {
         background: $main-color;
