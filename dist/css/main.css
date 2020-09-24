@@ -118,7 +118,7 @@ input[class^="btn-"]:hover {
   .item:hover .item-text {
     opacity: 1;
     transform: translateY(0); }
-  .item-iamge {
+  .item-image {
     height: auto;
     transform: trasnlateZ(0);
     display: block;
@@ -135,6 +135,10 @@ input[class^="btn-"]:hover {
     width: 100%;
     height: auto;
     line-height: 0; }
+  .item-6 img {
+    height: 100%;
+    width: auto;
+    transform: translateX(-12%); }
   .item-text {
     position: absolute;
     top: 0;

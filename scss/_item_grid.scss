@@ -39,7 +39,7 @@
     transform: translateY(0);
   }
 
-  &-iamge {
+  &-image {
     height: auto;
     transform: trasnlateZ(0);
     display: block;
@@ -60,6 +60,12 @@
     width: 100%;
     height: auto;
     line-height: 0;
+  }
+
+  &-6 img {
+    height: 100%;
+    width: auto;
+    transform: translateX(-12%);
   }
 
   &-text {
