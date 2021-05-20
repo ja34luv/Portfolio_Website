@@ -367,12 +367,14 @@ img {
 
 #about-a .bio-image {
   grid-area: bioimage;
+  height: auto;
 }
 
 #about-a .bio {
   grid-area: bio;
   border-left: 3px solid #ffbc00;
-  padding: 0.8rem;
+  padding: 200px 0.8rem;
+  font-size: 17px;
 }
 
 #about-a .award-1 {
